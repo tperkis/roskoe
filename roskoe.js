@@ -76,7 +76,7 @@ exports.go = function() {
                  } else {
                      console.log("missing channel, bad pwd or no subs", util.inspect(chan,false,null));
                  }
-                 oscClients = null; // not sure if this is necessary, or even desirable.
+                 // oscClients = null; // not sure if this is necessary, or even desirable.
              
         } // switch
      }); // oscServer.on()
